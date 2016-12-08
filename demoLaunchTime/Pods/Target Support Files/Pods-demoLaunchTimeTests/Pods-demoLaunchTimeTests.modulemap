@@ -1,0 +1,6 @@
+framework module Pods_demoLaunchTimeTests {
+  umbrella header "Pods-demoLaunchTimeTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

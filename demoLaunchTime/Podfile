@@ -1,0 +1,28 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'demoLaunchTime' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for demoLaunchTime
+pod 'Alamofire', '~> 4.2'
+pod 'ObjectMapper', '~> 2.2'
+pod 'SDWebImage', '~> 3.8'
+pod 'SnapKit', '~> 3.0'
+pod 'IQKeyboardManagerSwift', '~> 4.0'
+pod 'Crashlytics', '~> 3.8'
+pod 'FacebookCore', '~> 0.2'
+pod 'MBProgressHUD', '~> 1.0'
+pod 'GoogleMaps', '~> 2.1'
+  target 'demoLaunchTimeTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'demoLaunchTimeUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
